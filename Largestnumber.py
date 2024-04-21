@@ -16,9 +16,9 @@ num2=form.number_input('Enter the 2nd number',step=1)
 num3=form.number_input('Enter the 3rd number',step=1) 
 submitted=form.form_submit_button('Submit') 
 if submitted: 
-  st.header('Result:') 
+  st.title('Result:') 
   result=largest_num(num1,num2,num3) 
   st.write(f'The largest number is {result}') 
 else: 
-  st.header('Result:') 
+  st.title('Result:') 
   st.write('Click on submit button')
