@@ -14,7 +14,7 @@ form=st.sidebar.form(key="form",clear_on_submit=False)
 num1=form.number_input('Enter the first number',step=1) 
 num2=form.number_input('Enter the second number',step=1) 
 num3=form.number_input('Enter the third number',step=1) 
-submitted=form.form_submit_button('Find the Largest') 
+submitted=form.form_submit_button('Submit') 
 if submitted: 
   st.header('Result:') 
   result=largest_num(num1,num2,num3) 
