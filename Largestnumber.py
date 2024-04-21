@@ -21,4 +21,4 @@ if submitted:
   st.write(f'The largest number is {result}') 
 else: 
   st.header('Result:') 
-  st.write('Click on submit')
+  st.write('Click on submit button')
