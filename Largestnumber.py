@@ -9,11 +9,11 @@ def largest_num(num1,num2,num3):
     result=num3 
   return result 
 st.set_page_config(page_title='Largest number',layout='wide') 
-st.sidebar.title("Largest among three numbers") 
+st.sidebar.title("Largest number") 
 form=st.sidebar.form(key="form",clear_on_submit=False) 
-num1=form.number_input('Enter the first number',step=1) 
-num2=form.number_input('Enter the second number',step=1) 
-num3=form.number_input('Enter the third number',step=1) 
+num1=form.number_input('Enter the 1st number',step=1) 
+num2=form.number_input('Enter the 2nd number',step=1) 
+num3=form.number_input('Enter the 3rd number',step=1) 
 submitted=form.form_submit_button('Submit') 
 if submitted: 
   st.header('Result:') 
